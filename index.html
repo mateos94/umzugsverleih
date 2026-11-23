@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Umzugskisten und Umzugszubehör im Paket in Aschaffenburg.">
+<title>Umzugsverleih Aschaffenburg</title>
+<link rel="stylesheet" href="style.css">
+<script src="page.js" defer></script>
+</head>
+<body>
+<svg class="symbols" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<symbol id="box" viewBox="0 0 48 48"><path d="M4 14 24 3l20 11v22L24 47 4 36ZM4 14l20 12 20-12M24 26v21M14 20 34 9"/></symbol>
+<symbol id="stack" viewBox="0 0 48 48"><path d="m3 23 21 12 21-12v13L24 47 3 36Zm0 0 10-6m22 0 10 6M24 35v12M14 8l10-6 10 6v15l-10 6-10-6Zm0 0 10 6 10-6M24 14v15"/></symbol>
+<symbol id="calendar" viewBox="0 0 48 48"><rect x="5" y="9" width="38" height="34" rx="5"/><path d="M5 19h38M14 4v10M34 4v10m-18 18 5 5 11-12"/></symbol>
+<symbol id="list" viewBox="0 0 48 48"><path d="M9 4h21l9 9v31H9Zm21 0v10h9M14 16l3 3 4-5m-7 12 3 3 4-5m-7 12 3 3 4-5m5-16h7m-7 10h7m-7 10h7"/></symbol>
+<symbol id="truck" viewBox="0 0 48 48"><path d="M4 34V12h28v22H16m16-17h6l7 8v9h-4m-9 0h2"/><circle cx="11" cy="35" r="5"/><circle cx="37" cy="35" r="5"/></symbol>
+<symbol id="leaf" viewBox="0 0 48 48"><path d="M8 36C-4 13 26 10 44 4c-1 21-12 40-36 32ZM5 45c4-11 13-20 25-27"/></symbol>
+<symbol id="people" viewBox="0 0 48 48"><circle cx="24" cy="13" r="6"/><circle cx="10" cy="17" r="5"/><circle cx="38" cy="17" r="5"/><path d="M12 43v-6a12 12 0 0 1 24 0v6M2 41v-6a8 8 0 0 1 10-8m24 0a8 8 0 0 1 10 8v6"/></symbol>
+</svg>
+<header>
+  <img class="logo" src="logo.png" alt="Umzugsverleih Aschaffenburg">
+  <a class="button gold" href="#pakete"><svg><use href="#calendar"/></svg>Jetzt mieten</a>
+</header>
+<main>
+  <section class="hero" aria-labelledby="headline">
+    <div class="hero-copy">
+      <p class="eyebrow">Bald für euch da</p>
+      <h1 id="headline">Einfach umziehen.<br>Clever mieten.</h1>
+      <p class="intro">Umzugskisten und Umzugszubehör im Paket – flexibel, nachhaltig und genau für deinen Haushalt.</p>
+      <div class="actions">
+        <a class="button" href="#pakete"><svg><use href="#box"/></svg>Umzugspaket auswählen</a>
+        <button class="button outline" id="open-checklist"><svg><use href="#list"/></svg><span>Kostenlose<br>Umzugscheckliste</span></button>
+      </div>
+    </div>
+    <img class="equipment" src="equipment.png" alt="Stapelbare Umzugskisten, Sackkarren, Zubehör und Umzugscheckliste">
+  </section>
+  <div class="launch-row">
+    <div class="launch" aria-label="Countdown bis zum 1. Februar 2027">
+      <strong><svg><use href="#calendar"/></svg>Bald geht’s los!</strong>
+      <div class="clock" data-deadline="2027-02-01T00:00:00+01:00"><span><b>00</b>Tage</span><span><b>00</b>Stunden</span><span><b>00</b>Minuten</span><span><b>00</b>Sekunden</span></div>
+    </div>
+  </div>
+  <section class="packages" id="pakete" aria-label="Umzugspaket auswählen">
+    <button class="package" aria-pressed="false"><svg><use href="#box"/></svg><span><strong>Basic</strong>Die solide Grundausstattung<br class="wide"> für einen effizienten Umzug.</span></button>
+    <button class="package" aria-pressed="true"><svg><use href="#box"/></svg><span><strong>Premium</strong>Mehr Ausstattung und<br class="wide"> Komfort – für einen<br class="wide"> entspannten Umzug.</span></button>
+    <button class="package" aria-pressed="false"><svg><use href="#stack"/></svg><span><strong>Expert</strong>Das Rundum-Paket für maximale Unterstützung und anspruchsvolle Umzüge.</span></button>
+  </section>
+  <ul class="benefits">
+    <li><svg><use href="#truck"/></svg>Lieferung im<br>45-km-Radius</li>
+    <li><svg><use href="#calendar"/></svg>2–4 Wochen<br>flexibel mieten</li>
+    <li><svg><use href="#leaf"/></svg>Nachhaltig &amp;<br>wiederverwendbar</li>
+  </ul>
+  <section class="household" aria-labelledby="household-title">
+    <div class="household-copy"><svg><use href="#people"/></svg><div><h2 id="household-title">Dein Haushalt – deine Paketgröße</h2><p>Wähle deine Haushaltsgröße – die Ausstattung wird automatisch<br class="wide"> passend für 1 bis 6 Personen skaliert.</p></div></div>
+    <div class="sizes" aria-label="Haushaltsgröße">
+      <button aria-pressed="true">1 Person</button><button aria-pressed="false">2 Personen</button><button aria-pressed="false">3 Personen</button><button aria-pressed="false">4 Personen</button><button aria-pressed="false">5 Personen</button><button aria-pressed="false">6 Personen</button>
+    </div>
+  </section>
+</main>
+<footer>
+  <svg class="footer-wave" viewBox="0 0 1535 108" preserveAspectRatio="none" aria-hidden="true"><path fill="#d5a53c" d="M0 59C205 85 340 0 643 24S897 51 1082 30 1387 66 1535 0V108H0Z"/><path fill="#063623" d="M0 72C205 94 340 15 643 38S897 59 1082 45 1387 79 1535 18V108H0Z"/></svg>
+  <img src="castle.png" alt="">
+  <span>Umzugsverleih Aschaffenburg</span>
+</footer>
+<dialog id="checklist">
+  <form method="dialog"><button class="button close">Schließen</button></form>
+  <h2>Meine Umzugscheckliste</h2>
+  <label><input type="checkbox"> Umzugstermin festlegen und Helfer organisieren</label>
+  <label><input type="checkbox"> Kisten packen und beschriften</label>
+  <label><input type="checkbox"> Am Umzugstag Zählerstände notieren</label>
+  <label><input type="checkbox"> Nach dem Umzug die Adresse aktualisieren</label>
+</dialog>
+</body>
+</html>
