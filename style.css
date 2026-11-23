@@ -51,11 +51,6 @@ footer{position:relative;height:6.9vw;min-height:78px;display:flex;align-items:f
 .footer-wave{position:absolute;inset:0;width:100%;height:100%;stroke:none}
 footer img{position:absolute;bottom:0;left:0;width:27.8%;mix-blend-mode:normal}
 footer span{position:relative;padding-right:1.6em;border-right:2px solid}
-dialog{max-width:min(92vw,475px);border:1px solid var(--line);border-radius:18px;padding:24px;background:var(--cream);color:var(--green)}
-dialog::backdrop{background:#03291999}
-dialog .close{float:right;margin:0 0 18px 12px}
-dialog h2{clear:both;margin-bottom:18px}
-dialog label{display:block;margin:.75em 0}
 @media(max-width:1100px){.wide{display:none}.actions{white-space:normal}.package{padding:12px}.hero-copy{padding-bottom:42px}}
 @media(max-width:760px){
  header{height:72px;padding:8px 14px}.hero{margin-top:0;display:flex;flex-direction:column}.hero-copy{padding:22px 18px 12px;background:none}
