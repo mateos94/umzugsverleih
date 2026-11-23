@@ -1,8 +1,3 @@
-const checklist = document.querySelector('#checklist');
-document.querySelector('#open-checklist').addEventListener('click', () => {
-  checklist.showModal();
-});
-
 for (const group of document.querySelectorAll('.packages, .sizes')) {
   group.addEventListener('click', (event) => {
     const selected = event.target.closest('button');
